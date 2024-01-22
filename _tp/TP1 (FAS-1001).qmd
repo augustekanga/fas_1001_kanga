@@ -16,8 +16,7 @@ date: "Lundi 22 janvier 2024"
 **Fork d'un Dépôt :** \
 Je suis allé sur la page du dépôt de l'enseignant Nadjim Fréchet que je veux "forker" et j'ai cliqué sur le bouton "Fork" pour créé une copie du dépôt dans mon compte. \
 **Cloner le Fork :** \
-Une fois le fork créé, j'ai cloné le fork sur ma machine \
-
+Une fois le fork créé, j'ai cloné le fork sur ma machine avec **git clone**
 *kangakouakouauguste@users-air TP % git clone git@github.com:augustekanga/fas_1001_kanga.git* \
 
 2: Une fois le fichier “cloné”, j’ai créé ma propre “branche” (ou branch en anglais) avant de faire mes modifications dans mon terminal. fas_1001_kanga. \
@@ -50,7 +49,7 @@ j'ai vérifié en utilisant encore **git branch**
 
 J'ai enregistré et ajouté mes modifications à mon  document de travail de session en cliquant sur le bouton Render.  \
 
-![Capture d'écran](Capture4.png)
+![Utilisation de add et commit](Capture4.png)
 
 6: Une fois mes modifications enregistrées,j'ai ajouté (add) ces dernières à mon historique Git avec mon terminal. Par la suite, enregistrez (commit) vos modifications sous le nom de: Création du document du travail de session toujours dans votre terminal. \
 
@@ -63,12 +62,11 @@ Après avoir ajouté les fichiers, j'ai enregistré mes modifications avec **git
 J'ai vérifié encore une fois le statut de mes fichiers avec **git status**
 *kangakouakouauguste@users-air fas_1001_kanga % git Status*
 
+![Utilisation de git log](Capture6.png)
 
+7: J'ai utilisé la commande **git log** pour voir l’historique de mes premiers pas sur Git \
 
-7: Maintenant, je veux voir l’historique de vos premiers pas sur Git (log en anglais). Cela nécessite une commande Git1. Ensuite, prenez une capture d’écran de votre terminal et insérez la photo dans votre fichier Quarto de votre TP1. Sous cette photo, expliquez-moi chacune des commandes Git utilisées pour chacune des étapes. 
-Encore une fois, les mots entre parenthèses en anglais ne sont pas là par hasard. \
-
-8: Dernière étape, maintenant, vous devez rentrer ou “pusher” (push en anglais) vos modifications sur GitHub. Si tout va bien, nous devrions être en mesure de voir les modifications de votre fichier sur GitHub. \
+8: Finalement, j'ai rentré ou “pushé” (push en anglais) mes modifications sur GitHub. \
 
 
 
