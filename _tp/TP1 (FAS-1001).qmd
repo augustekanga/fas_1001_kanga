@@ -8,7 +8,7 @@ date: "Lundi 22 janvier 2024"
 # TP1 (introduction à GitHub et à Quarto) 
 ## Étapes pour le tp1: 
 
-![Capture d'écran](Capture1.png)
+![Cloner le Fork](Capture1.png)
 
 
 1: J’ai “forké” (ou fork en anglais) et “cloné” (ou clone en anglais) le fichier fas_1001 du compte GitHub de l’enseignant Nadjim Fréchet, changé le nom en fas_1001_kanga. Ce fichier sera celui où je déposerez mes travaux pratiques et mon travail de session. \
@@ -21,7 +21,21 @@ Une fois le fork créé, j'ai cloné le fork sur ma machine \
 *kangakouakouauguste@users-air TP % git clone git@github.com:augustekanga/fas_1001_kanga.git* \
 
 2: Une fois le fichier “cloné”, j’ai créé ma propre “branche” (ou branch en anglais) avant de faire mes modifications dans mon terminal. fas_1001_kanga. \
-
+j'ai utilisé la commande **git branch** pour créer ma branche **fas_1001_kanga**
+*kangakouakouauguste@users-air fas_1001_kanga % git branch fas_1001_kanga* \
+j'ai vérifié en utilisant encore **git branch**
+*kangakouakouauguste@users-air fas_1001_kanga % git branch*
+  fas_1001_kanga
+* main \
+j'ai utilisé **git checkout** pour choisir ma branche fas_1001_kanga
+*kangakouakouauguste@users-air fas_1001_kanga % git checkout fas_1001_kanga* \
+j'ai ensuite fusionné les modifications de la branche main dans la branche fas_1001_kanga avec **git merge**
+*kangakouakouauguste@users-air fas_1001_kanga % git merge main* \
+j'ai vérifié en utilisant encore **git branch**
+*kangakouakouauguste@users-air fas_1001_kanga % git branch*
+* fas_1001_kanga
+  main \
+  
 3: Une fois ma “branche” créée, j’ai ouvert RStudio en cliquant sur le Rproj. fas_1001.Rproj et créé un document Quarto en format PDF que l’ai sauvegardé dans le fichier _tp à l’intérieur du fichier fas_1001_kanga. Le titre du document est TP1 (FAS-1001). J’ai ajouté mon nom dans la section author et la date de remise du TP1 à l’entête du document dans le code (aussi appelé YAML). \
 
 4: Ensuite, j’ai enregistré et ajouté mes modifications au document en cliquant sur le bouton Render dans la barre de commande. Une fois mes modifications enregistrées, ajoutez (add en anglais) ces dernières à votre historique Git avec votre terminal. Par la suite, enregistrez (commit en anglais) vos modifications sous le nom de: Premier commit toujours dans votre terminal. \
@@ -44,6 +58,8 @@ Avant d'ajouter des fichiers, j'ai vérifié l'état actuel de mon dépôt Git e
 *kangakouakouauguste@users-air fas_1001_kanga % git status* \
 Ensuite j'ai ajouté tous les fichiers modifiés avec **git add .**
 *kangakouakouauguste@users-air fas_1001_kanga % git add .* \
+Après avoir ajouté les fichiers, j'ai enregistré mes modifications avec **git commit** et un message 
+*git commit -m "Création du document du travail de session"* \
 J'ai vérifié encore une fois le statut de mes fichiers avec **git status**
 *kangakouakouauguste@users-air fas_1001_kanga % git Status*
 
