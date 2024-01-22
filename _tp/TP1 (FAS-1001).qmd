@@ -1,0 +1,40 @@
+---
+title: "TP1 (FAS-1001)"
+author: "KANGA Kouakou Auguste"
+format: pdf
+date: "Lundi 22 janvier 2024"
+---
+
+# TP1 (introduction à GitHub et à Quarto) 
+## Étapes pour le tp1: 
+
+![Capture d'écran](Capture1.png)
+
+
+1: J’ai “forké” (ou fork en anglais) et “cloné” (ou clone en anglais) le fichier fas_1001 du compte GitHub de l’enseignant Nadjim Fréchet, changé le nom en fas_1001_kanga. Ce fichier sera celui où je déposerez mes travaux pratiques et mon travail de session. \
+
+2: Une fois le fichier “cloné”, j’ai créé ma propre “branche” (ou branch en anglais) avant de faire mes modifications dans mon terminal. fas_1001_kanga. \
+
+3: Une fois ma “branche” créée, j’ai ouvert RStudio en cliquant sur le Rproj. fas_1001.Rproj et créé un document Quarto en format PDF que l’ai sauvegardé dans le fichier _tp à l’intérieur du fichier fas_1001_kanga. Le titre du document est TP1 (FAS-1001). J’ai ajouté mon nom dans la section author et la date de remise du TP1 à l’entête du document dans le code (aussi appelé YAML). \
+
+4: Ensuite, j’ai enregistré et ajouté mes modifications au document en cliquant sur le bouton Render dans la barre de commande. Une fois mes modifications enregistrées, ajoutez (add en anglais) ces dernières à votre historique Git avec votre terminal. Par la suite, enregistrez (commit en anglais) vos modifications sous le nom de: Premier commit toujours dans votre terminal. \
+
+5: J’ai créé un deuxième fichier Quarto en format PDF que j’ai ajouté dans le fichier _tra- vail_session à l’intérieur du fichier fas_1001_kanga. J’ai ajouté mon nom dans la section author et généré l’ensemble des sections de mon travail de session de la manière suivante: \
+
+• Introduction - gros entête (heading en anglais): #. \
+• Problématique de recherche - petit entête: ##. \
+• Données et méthodes - petit entête: ##. \
+• Résultats - petit entête: ##.  \
+• Conclusion - gros entête (heading en anglais): #. \
+
+6: Enregistrez et ajoutez vos modifications à votre document de travail de session en cliquant sur le bouton Render. Une fois vos modifications enregistrées, ajoutez (add) ces dernières à votre historique Git avec votre terminal. Par la suite, enregistrez (commit) vos modifica- tions sous le nom de: Création du document du travail de session toujours dans votre terminal. \
+
+7: Maintenant, je veux voir l’historique de vos premiers pas sur Git (log en anglais). Cela nécessite une commande Git1. Ensuite, prenez une capture d’écran de votre terminal et insérez la photo dans votre fichier Quarto de votre TP1. Sous cette photo, expliquez-moi chacune des commandes Git utilisées pour chacune des étapes. 
+Encore une fois, les mots entre parenthèses en anglais ne sont pas là par hasard. \
+
+8: Dernière étape, maintenant, vous devez rentrer ou “pusher” (push en anglais) vos modifi- cations sur GitHub. Si tout va bien, nous devrions être en mesure de voir les modifications de votre fichier sur GitHub. \
+
+
+
+![Capture d'écran](Capture1.png)
+
